@@ -11,6 +11,7 @@ mkdir -p "$OUTPUT_DIR"
 
 zh_chapters=(
   "chapters/00-序章"
+  "chapters/01-寻找一个稳定的抽象"
 )
 
 # ---------- 构建函数 ----------
