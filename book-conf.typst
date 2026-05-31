@@ -1,0 +1,139 @@
+// 书籍排版配置 — Pandoc Typst 模板
+#let conf(
+  title: none,
+  subtitle: none,
+  authors: (),
+  date: none,
+  lang: "zh",
+  region: "CN",
+  fontsize: 11pt,
+  papersize: "a4",
+  margin: (x: 2.5cm, y: 3cm),
+  section-numbering: none,
+  toc: false,
+  cols: 1,
+  doc,
+  ..args,
+) = {
+  // 页面设置（前置页无页码）
+  set page(
+    paper: papersize,
+    margin: margin,
+    numbering: none,
+  )
+
+  // 字体：中文用 PingFang SC，英文用系统默认衬线体
+  let body-font = if lang == "en" {
+    ("Georgia", "Palatino", "Times New Roman")
+  } else {
+    ("PingFang SC",)
+  }
+
+  set text(
+    font: body-font,
+    lang: lang,
+    region: region,
+    size: fontsize,
+  )
+
+  // 段落：中文首行缩进 2em，英文不缩进
+  if lang == "en" {
+    set par(
+      justify: true,
+      leading: 1.2em,
+    )
+  } else {
+    set par(
+      justify: true,
+      leading: 1.2em,
+      first-line-indent: 2em,
+    )
+  }
+
+  // 列表不缩进首行
+  show list: set par(first-line-indent: 0em)
+  show enum: set par(first-line-indent: 0em)
+
+  // 标题样式
+  set heading(numbering: section-numbering)
+
+  // 一级标题：章标题，前置分页
+  show heading.where(level: 1): it => {
+    pagebreak(weak: true)
+    v(3em)
+    text(size: 1.5em, weight: "bold")[#it]
+    v(1.5em)
+  }
+
+  // 二级标题
+  show heading.where(level: 2): it => {
+    v(1.2em)
+    text(size: 1.2em, weight: "bold")[#it]
+    v(0.6em)
+  }
+
+  // 代码块样式
+  show raw.where(block: true): set par(first-line-indent: 0em)
+  show raw.where(block: true): set text(size: 0.9em)
+
+  // === 封面 ===
+  {
+    // 隐藏书签标题
+    show heading: it => hide(it)
+    let cover-label = if lang == "en" { "Cover" } else { "封面" }
+    heading(level: 1, outlined: false, bookmarked: true)[#cover-label]
+  }
+  v(1fr)
+  align(center)[
+    #text(size: 2em, weight: "bold")[#title]
+    #v(0.8em)
+    #if subtitle != none {
+      text(size: 1.2em, fill: luma(80))[#subtitle]
+    }
+    #v(2em)
+    #for author in authors {
+      text(size: 1.1em)[#author.name]
+    }
+  ]
+  v(1fr)
+  align(center)[
+    #text(size: 0.85em, fill: luma(120))[CC BY-NC-SA 4.0]
+  ]
+
+  // 版权声明（目录页和正文页共用）
+  let copyright-notice = text(size: 0.75em, fill: luma(160))[
+    CC BY-NC-SA 4.0 · Chao Li
+  ]
+
+  // === 目录 ===
+  set page(
+    footer: align(center)[#copyright-notice],
+  )
+  pagebreak()
+  {
+    show heading: it => hide(it)
+    let toc-label = if lang == "en" { "Table of Contents" } else { "目录" }
+    heading(level: 1, outlined: false, bookmarked: true)[#toc-label]
+  }
+  let toc-title = if lang == "en" { "Table of Contents" } else { "目录" }
+  text(size: 1.5em, weight: "bold")[#toc-title]
+  v(0.8em)
+  outline(
+    title: none,
+    depth: 3,
+    indent: 1.5em,
+  )
+
+  // === 正文（页码 + 版权）===
+  set page(
+    footer: context {
+      align(center)[
+        #copyright-notice
+        #h(2em)
+        #counter(page).display("1")
+      ]
+    },
+  )
+  counter(page).update(1)
+  doc
+}

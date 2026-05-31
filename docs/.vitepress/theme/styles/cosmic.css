@@ -1,0 +1,385 @@
+/* ==========================================================================
+   Cosmic design system for VitePress
+   Dual-theme: Night (deep space) / Dusk (warm parchment)
+   Ported from blog, merged with book-specific typography rules.
+   ========================================================================== */
+
+/* Force dark mode (VitePress level — we handle our own light via .dusk) */
+:root {
+  color-scheme: dark;
+}
+
+/* ===== Night theme (default) ===== */
+.dark {
+  /* Deep space base */
+  --vp-c-bg: #0a0a0f;
+  --vp-c-bg-alt: #0d0d14;
+  --vp-c-bg-elv: #12121a;
+  --vp-c-bg-soft: #14141e;
+
+  /* Cold purple-blue accent */
+  --vp-c-brand-1: #8b9cf7;
+  --vp-c-brand-2: #7b8de7;
+  --vp-c-brand-3: #6b7dd7;
+  --vp-c-brand-soft: rgba(139, 156, 247, 0.12);
+
+  /* Cool-toned text */
+  --vp-c-text-1: rgba(235, 235, 245, 0.86);
+  --vp-c-text-2: rgba(235, 235, 245, 0.5);
+  --vp-c-text-3: rgba(235, 235, 245, 0.3);
+
+  /* Borders */
+  --vp-c-border: rgba(139, 156, 247, 0.12);
+  --vp-c-divider: rgba(139, 156, 247, 0.08);
+  --vp-c-gutter: #000000;
+
+  /* Surface / Cards */
+  --vp-c-default-1: rgba(139, 156, 247, 0.12);
+  --vp-c-default-2: rgba(139, 156, 247, 0.18);
+  --vp-c-default-3: rgba(139, 156, 247, 0.24);
+  --vp-c-default-soft: rgba(139, 156, 247, 0.06);
+
+  /* Nav */
+  --vp-nav-bg-color: rgba(10, 10, 15, 0.8);
+
+  /* Hero gradient */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #8b9cf7 0%, #c4b5fd 50%, #e0d4ff 100%);
+
+  /* Button */
+  --vp-button-brand-border: rgba(139, 156, 247, 0.3);
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: rgba(139, 156, 247, 0.2);
+  --vp-button-brand-hover-border: rgba(139, 156, 247, 0.5);
+  --vp-button-brand-hover-text: #fff;
+  --vp-button-brand-hover-bg: rgba(139, 156, 247, 0.3);
+  --vp-button-brand-active-border: rgba(139, 156, 247, 0.6);
+  --vp-button-brand-active-text: #fff;
+  --vp-button-brand-active-bg: rgba(139, 156, 247, 0.35);
+
+  --vp-button-alt-border: rgba(255, 255, 255, 0.1);
+  --vp-button-alt-text: rgba(235, 235, 245, 0.86);
+  --vp-button-alt-bg: rgba(255, 255, 255, 0.04);
+  --vp-button-alt-hover-border: rgba(255, 255, 255, 0.2);
+  --vp-button-alt-hover-text: #fff;
+  --vp-button-alt-hover-bg: rgba(255, 255, 255, 0.08);
+
+  /* Code */
+  --vp-code-bg: rgba(139, 156, 247, 0.08);
+  --vp-code-color: #c4b5fd;
+
+  /* Cosmic theme tokens */
+  --cosmic-glow: rgba(139, 156, 247, 0.08);
+  --cosmic-glow-soft: rgba(139, 156, 247, 0.02);
+  --cosmic-accent-rgb: 139, 156, 247;
+  --cosmic-progress-1: #8b9cf7;
+  --cosmic-progress-2: #c4b5fd;
+  --cosmic-progress-3: #e0d4ff;
+  --cosmic-heading-from: rgba(235, 235, 245, 0.86);
+  --cosmic-heading-to: #8b9cf7;
+  --cosmic-shadow-color: rgba(0, 0, 0, 0.3);
+  --cosmic-code-shadow: rgba(0, 0, 0, 0.3);
+  --cosmic-selection-text: #fff;
+}
+
+/* ===== Dusk theme (warm light) ===== */
+.dark.dusk {
+  color-scheme: light;
+
+  /* Warm cream/parchment base */
+  --vp-c-bg: #faf6f0;
+  --vp-c-bg-alt: #f5efe6;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f0e9de;
+
+  /* Warm amber accent */
+  --vp-c-brand-1: #c8860a;
+  --vp-c-brand-2: #b5780a;
+  --vp-c-brand-3: #a06a08;
+  --vp-c-brand-soft: rgba(200, 134, 10, 0.10);
+
+  /* Dark warm text */
+  --vp-c-text-1: #3d3428;
+  --vp-c-text-2: #7a6e5d;
+  --vp-c-text-3: #a89e8e;
+
+  /* Borders */
+  --vp-c-border: rgba(180, 160, 130, 0.25);
+  --vp-c-divider: rgba(180, 160, 130, 0.15);
+  --vp-c-gutter: #ede7dc;
+
+  /* Surface / Cards */
+  --vp-c-default-1: rgba(180, 160, 130, 0.2);
+  --vp-c-default-2: rgba(180, 160, 130, 0.3);
+  --vp-c-default-3: rgba(180, 160, 130, 0.4);
+  --vp-c-default-soft: rgba(180, 160, 130, 0.08);
+
+  /* Nav */
+  --vp-nav-bg-color: rgba(250, 246, 240, 0.85);
+
+  /* Hero gradient */
+  --vp-home-hero-name-background: linear-gradient(135deg, #c8860a 0%, #d4a030 50%, #e8c060 100%);
+
+  /* Button */
+  --vp-button-brand-border: rgba(200, 134, 10, 0.3);
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: rgba(200, 134, 10, 0.12);
+  --vp-button-brand-hover-border: rgba(200, 134, 10, 0.5);
+  --vp-button-brand-hover-text: #fff;
+  --vp-button-brand-hover-bg: rgba(200, 134, 10, 0.2);
+  --vp-button-brand-active-border: rgba(200, 134, 10, 0.6);
+  --vp-button-brand-active-text: #fff;
+  --vp-button-brand-active-bg: rgba(200, 134, 10, 0.25);
+
+  --vp-button-alt-border: rgba(60, 52, 40, 0.12);
+  --vp-button-alt-text: #3d3428;
+  --vp-button-alt-bg: rgba(60, 52, 40, 0.04);
+  --vp-button-alt-hover-border: rgba(60, 52, 40, 0.2);
+  --vp-button-alt-hover-text: #3d3428;
+  --vp-button-alt-hover-bg: rgba(60, 52, 40, 0.08);
+
+  /* Code */
+  --vp-code-bg: rgba(200, 134, 10, 0.07);
+  --vp-code-color: #a06a08;
+
+  /* Cosmic theme tokens */
+  --cosmic-glow: rgba(200, 134, 10, 0.06);
+  --cosmic-glow-soft: rgba(200, 134, 10, 0.02);
+  --cosmic-accent-rgb: 200, 134, 10;
+  --cosmic-progress-1: #c8860a;
+  --cosmic-progress-2: #d4a030;
+  --cosmic-progress-3: #e8c060;
+  --cosmic-heading-from: #3d3428;
+  --cosmic-heading-to: #c8860a;
+  --cosmic-shadow-color: rgba(100, 80, 50, 0.08);
+  --cosmic-code-shadow: rgba(100, 80, 50, 0.06);
+  --cosmic-selection-text: #fff;
+}
+
+/* ===== Global styles ===== */
+
+/* Theme transition */
+.dark {
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+
+/* Glassmorphism nav */
+.VPNav .VPNavBar {
+  backdrop-filter: blur(16px) saturate(1.2);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  border-bottom: 1px solid rgba(var(--cosmic-accent-rgb), 0.06);
+}
+
+/* Hide dark/light toggle */
+.VPSwitchAppearance {
+  display: none !important;
+}
+
+/* Subtle footer */
+.VPFooter {
+  border-top-color: rgba(var(--cosmic-accent-rgb), 0.08) !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(var(--cosmic-accent-rgb), 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(var(--cosmic-accent-rgb), 0.35);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(var(--cosmic-accent-rgb), 0.3);
+  color: var(--cosmic-selection-text);
+}
+
+/* Nav link hover glow */
+.VPNavBarMenuLink .VPLink:hover {
+  color: var(--vp-c-brand-1) !important;
+  text-shadow: 0 0 12px rgba(var(--cosmic-accent-rgb), 0.3);
+}
+
+/* Content heading gradient */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  background: linear-gradient(135deg, var(--cosmic-heading-from), var(--cosmic-heading-to));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Code block glow */
+.vp-doc div[class*='language-'] {
+  border: 1px solid rgba(var(--cosmic-accent-rgb), 0.08);
+  box-shadow: 0 4px 24px var(--cosmic-code-shadow), 0 0 40px rgba(var(--cosmic-accent-rgb), 0.03);
+}
+
+/* Dusk code block overrides — force light syntax theme */
+.dusk .vp-doc div[class*='language-'] {
+  background-color: #fdf8f0 !important;
+}
+
+.dusk .vp-doc div[class*='language-'] code {
+  color: #3d3428 !important;
+}
+
+.dusk .vp-doc div[class*='language-'] .line span {
+  filter: saturate(1.5) brightness(0.55);
+}
+
+.dusk .vp-doc div[class*='language-'] .lang {
+  color: #a89e8e !important;
+}
+
+/* Dusk ambient glow — warm light from top */
+.dusk .VPContent::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50vh;
+  background: radial-gradient(
+    ellipse 130% 50% at 50% -10%,
+    rgba(232, 192, 96, 0.08) 0%,
+    rgba(212, 160, 48, 0.03) 40%,
+    transparent 70%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Page transition */
+.VPContent {
+  animation: page-enter 0.4s ease;
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Book-specific typography (preserved from original theme) ===== */
+
+/* Typography — round, clean sans-serif */
+:root {
+  --vp-font-family-base: "Microsoft YaHei", Arial, "PingFang SC",
+    "Hiragino Sans GB", "Helvetica Neue", Helvetica, sans-serif;
+  --vp-font-family-mono: "JetBrains Mono", "Fira Code", "Source Code Pro",
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+}
+
+.vp-doc {
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+.vp-doc p {
+  margin: 1.25em 0;
+}
+
+/* Headings */
+.vp-doc h1 {
+  font-size: 1.85em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  margin-top: 2rem;
+}
+
+.vp-doc h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: 1.4;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+/* Lists */
+.vp-doc ul,
+.vp-doc ol {
+  line-height: 1.85;
+}
+
+.vp-doc li + li {
+  margin-top: 0.35em;
+}
+
+/* Inline code */
+.vp-doc :not(pre) > code {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 3px;
+  padding: 0.15em 0.4em;
+  font-size: 0.88em;
+}
+
+/* Tables */
+.vp-doc table {
+  font-size: 0.92em;
+}
+
+.vp-doc tr {
+  border-color: var(--vp-c-divider);
+}
+
+.vp-doc th {
+  background: var(--vp-c-bg-soft);
+}
+
+/* ===== Layout ===== */
+
+/* Content container width */
+.VPDoc .container > .content {
+  max-width: 100%;
+}
+
+/* Sidebar */
+.VPSidebar {
+  font-size: 14px;
+}
+
+.VPSidebarItem .text {
+  line-height: 1.6;
+}
+
+/* Home page hero — enable gradient text */
+.VPHero .name.clip {
+  -webkit-text-fill-color: transparent !important;
+}
+
+.VPHero .tagline {
+  font-size: 1.15em !important;
+  line-height: 1.8 !important;
+  color: var(--vp-c-text-2) !important;
+}
+
+/* ===== Hide default VitePress language switcher ===== */
+.VPFlyout:has([aria-label="Change language"]) {
+  display: none !important;
+}
