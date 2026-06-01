@@ -22,7 +22,7 @@ const sidebar = [
       { text: '概述', link: '/chapters/01-寻找一个稳定的抽象/00-概述' },
       { text: '没有稳定的抽象，框架都是假的', link: '/chapters/01-寻找一个稳定的抽象/01-没有稳定的抽象框架都是假的' },
       { text: '会用工具的动物', link: '/chapters/01-寻找一个稳定的抽象/02-会用工具的动物' },
-      { text: '一点火光，然后整张图齐了', link: '/chapters/01-寻找一个稳定的抽象/03-一点火光然后整张图齐了' },
+      { text: 'skill 让整张图归位', link: '/chapters/01-寻找一个稳定的抽象/03-一点火光然后整张图齐了' },
     ],
   },
   {
@@ -30,7 +30,7 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '概述', link: '/chapters/02-模型不是员工/00-概述' },
-      { text: '出生以前', link: '/chapters/02-模型不是员工/01-出生以前' },
+      { text: 'agent 出生以前', link: '/chapters/02-模型不是员工/01-出生以前' },
       { text: '预训练是通识教育', link: '/chapters/02-模型不是员工/02-预训练是通识教育' },
       { text: '后训练是职业教育', link: '/chapters/02-模型不是员工/03-后训练是职业教育' },
       { text: '学历不是岗位胜任', link: '/chapters/02-模型不是员工/04-学历不是岗位胜任' },
@@ -53,8 +53,8 @@ const sidebar = [
     items: [
       { text: '概述', link: '/chapters/04-上岗培训与职业证书/00-概述' },
       { text: 'skill 不是工具', link: '/chapters/04-上岗培训与职业证书/01-skill不是工具' },
-      { text: '上岗培训', link: '/chapters/04-上岗培训与职业证书/02-上岗培训' },
-      { text: '职业证书', link: '/chapters/04-上岗培训与职业证书/03-职业证书' },
+      { text: '岗位特定的 skill 是上岗培训', link: '/chapters/04-上岗培训与职业证书/02-上岗培训' },
+      { text: '可迁移的 skill 是职业证书', link: '/chapters/04-上岗培训与职业证书/03-职业证书' },
       { text: '能力资产要可复现', link: '/chapters/04-上岗培训与职业证书/04-能力资产要可复现' },
     ],
   },
@@ -90,7 +90,7 @@ const sidebar = [
       { text: '分工与交接', link: '/chapters/07-当团队里有很多agent/02-分工与交接' },
       { text: '授权与升级路径', link: '/chapters/07-当团队里有很多agent/03-授权与升级路径' },
       { text: '可观测性会改写组织病', link: '/chapters/07-当团队里有很多agent/04-可观测性会改写组织病' },
-      { text: '抄协调机制，删人性疤痕', link: '/chapters/07-当团队里有很多agent/05-抄协调机制删人性疤痕' },
+      { text: '保留协调机制，删掉人性补丁', link: '/chapters/07-当团队里有很多agent/05-抄协调机制删人性疤痕' },
     ],
   },
   {
