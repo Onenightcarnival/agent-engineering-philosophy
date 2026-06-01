@@ -11,6 +11,8 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '概述', link: '/chapters/00-序章/00-概述' },
+      { text: '不是又一本 agent 框架指南', link: '/chapters/00-序章/01-不是又一本agent框架指南' },
+      { text: '一份个人立场', link: '/chapters/00-序章/02-一份个人立场' },
     ],
   },
   {
@@ -20,7 +22,7 @@ const sidebar = [
       { text: '概述', link: '/chapters/01-寻找一个稳定的抽象/00-概述' },
       { text: '没有稳定的抽象，框架都是假的', link: '/chapters/01-寻找一个稳定的抽象/01-没有稳定的抽象框架都是假的' },
       { text: '会用工具的动物', link: '/chapters/01-寻找一个稳定的抽象/02-会用工具的动物' },
-      { text: '一颗火星，然后整张图齐了', link: '/chapters/01-寻找一个稳定的抽象/03-一颗火星然后整张图齐了' },
+      { text: '一点火光，然后整张图齐了', link: '/chapters/01-寻找一个稳定的抽象/03-一点火光然后整张图齐了' },
     ],
   },
   {
