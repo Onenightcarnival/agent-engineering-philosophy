@@ -22,7 +22,7 @@ const sidebar = [
       { text: '概述', link: '/chapters/01-寻找一个稳定的抽象/00-概述' },
       { text: '没有稳定的抽象，框架都是假的', link: '/chapters/01-寻找一个稳定的抽象/01-没有稳定的抽象框架都是假的' },
       { text: '会用工具的动物', link: '/chapters/01-寻找一个稳定的抽象/02-会用工具的动物' },
-      { text: 'skill 让整张图归位', link: '/chapters/01-寻找一个稳定的抽象/03-一点火光然后整张图齐了' },
+      { text: 'skill 让整张图归位', link: '/chapters/01-寻找一个稳定的抽象/03-skill让整张图归位' },
     ],
   },
   {
@@ -76,7 +76,7 @@ const sidebar = [
       { text: '概述', link: '/chapters/06-试用期晋升与退休/00-概述' },
       { text: 'eval 是试用期', link: '/chapters/06-试用期晋升与退休/01-eval是试用期' },
       { text: '绩效来自工作记录', link: '/chapters/06-试用期晋升与退休/02-绩效来自工作记录' },
-      { text: '成长不一定发生在权重里', link: '/chapters/06-试用期晋升与退休/03-成长不一定发生在权重里' },
+      { text: '成长大多不在权重里', link: '/chapters/06-试用期晋升与退休/03-成长大多不在权重里' },
       { text: '转岗与晋升', link: '/chapters/06-试用期晋升与退休/04-转岗与晋升' },
       { text: '离职与退休', link: '/chapters/06-试用期晋升与退休/05-离职与退休' },
     ],
@@ -90,7 +90,7 @@ const sidebar = [
       { text: '分工与交接', link: '/chapters/07-当团队里有很多agent/02-分工与交接' },
       { text: '授权与升级路径', link: '/chapters/07-当团队里有很多agent/03-授权与升级路径' },
       { text: '可观测性会改写组织病', link: '/chapters/07-当团队里有很多agent/04-可观测性会改写组织病' },
-      { text: '保留协调机制，删掉人性补丁', link: '/chapters/07-当团队里有很多agent/05-抄协调机制删人性疤痕' },
+      { text: '保留协调机制，删掉人性补丁', link: '/chapters/07-当团队里有很多agent/05-保留协调机制删掉人性补丁' },
     ],
   },
   {
@@ -98,7 +98,7 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '概述', link: '/chapters/08-什么会变什么不会变/00-概述' },
-      { text: '组织是为了降低协作成本而存在的', link: '/chapters/08-什么会变什么不会变/01-组织是为了降低协作成本而存在的' },
+      { text: '组织为降低协作成本而存在', link: '/chapters/08-什么会变什么不会变/01-组织为降低协作成本而存在' },
       { text: '超级个体的回归', link: '/chapters/08-什么会变什么不会变/02-超级个体的回归' },
       { text: '分工之后的归一', link: '/chapters/08-什么会变什么不会变/03-分工之后的归一' },
       { text: '工作可以拆，影响不能拆', link: '/chapters/08-什么会变什么不会变/04-工作可以拆影响不能拆' },
