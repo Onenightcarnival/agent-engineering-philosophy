@@ -3,7 +3,7 @@ layout: home
 hero:
   name: Agent 工程哲学
   text: ""
-  tagline: 当软件的基本构件从概率模型变成自主角色，软件工程需要重新理解什么。
+  tagline: 当软件系统的核心从概率模型变成自主角色，软件工程需要重新理解什么。
   actions:
     - theme: brand
       text: 开始阅读
