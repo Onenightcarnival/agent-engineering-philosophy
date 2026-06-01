@@ -12,6 +12,13 @@ mkdir -p "$OUTPUT_DIR"
 zh_chapters=(
   "chapters/00-序章"
   "chapters/01-寻找一个稳定的抽象"
+  "chapters/02-模型不是员工"
+  "chapters/03-岗位先于候选人"
+  "chapters/04-上岗培训与职业证书"
+  "chapters/05-工作电脑与职业履历"
+  "chapters/06-试用期晋升与退休"
+  "chapters/07-当团队里有很多agent"
+  "chapters/08-什么会变什么不会变"
 )
 
 # ---------- 构建函数 ----------
