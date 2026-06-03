@@ -91,6 +91,7 @@ const sidebar = [
       { text: '授权与升级路径', link: '/chapters/07-当团队里有很多agent/03-授权与升级路径' },
       { text: '可观测性会改写组织病', link: '/chapters/07-当团队里有很多agent/04-可观测性会改写组织病' },
       { text: '保留协调机制，删掉人性补丁', link: '/chapters/07-当团队里有很多agent/05-保留协调机制删掉人性补丁' },
+      { text: '谁签字，谁说了算吗', link: '/chapters/07-当团队里有很多agent/06-谁签字谁说了算吗' },
     ],
   },
   {
