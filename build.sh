@@ -18,7 +18,7 @@ zh_chapters=(
   "chapters/05-工作电脑与职业履历"
   "chapters/06-试用期晋升与退休"
   "chapters/07-当团队里有很多agent"
-  "chapters/08-什么会变什么不会变"
+  "chapters/08-不要复制人类组织病"
 )
 
 # ---------- 构建函数 ----------
