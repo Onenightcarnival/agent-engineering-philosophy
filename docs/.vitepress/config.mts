@@ -12,7 +12,7 @@ const sidebar = [
     items: [
       { text: '概述', link: '/chapters/00-序章/00-概述' },
       { text: '不是又一本 agent 框架指南', link: '/chapters/00-序章/01-不是又一本agent框架指南' },
-      { text: '一份个人立场', link: '/chapters/00-序章/02-一份个人立场' },
+      { text: '个人立场声明', link: '/chapters/00-序章/02-个人立场声明' },
     ],
   },
   {
