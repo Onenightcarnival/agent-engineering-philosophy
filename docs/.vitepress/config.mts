@@ -91,7 +91,6 @@ const sidebar = [
       { text: '授权与升级路径', link: '/chapters/07-当团队里有很多agent/03-授权与升级路径' },
       { text: '上下文隔离与共享', link: '/chapters/07-当团队里有很多agent/04-上下文隔离与共享' },
       { text: '多 agent 写作不是并行生成', link: '/chapters/07-当团队里有很多agent/05-多agent写作不是并行生成' },
-      { text: '主编岗位负责收束', link: '/chapters/07-当团队里有很多agent/06-主编岗位负责收束' },
     ],
   },
   {
@@ -99,13 +98,11 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '概述', link: '/chapters/08-不要复制人类组织病/00-概述' },
-      { text: '信息窗口改变组织形态', link: '/chapters/08-不要复制人类组织病/01-信息窗口改变组织形态' },
-      { text: '多 agent 不是公司仿真', link: '/chapters/08-不要复制人类组织病/02-多agent不是公司仿真' },
-      { text: '协调机制要保留', link: '/chapters/08-不要复制人类组织病/03-协调机制要保留' },
-      { text: '人性补丁要删除', link: '/chapters/08-不要复制人类组织病/04-人性补丁要删除' },
-      { text: 'agent 新病要新治', link: '/chapters/08-不要复制人类组织病/05-agent新病要新治' },
-      { text: '事实判断与最终责任', link: '/chapters/08-不要复制人类组织病/06-事实判断与最终责任' },
-      { text: '重新设计一种团队', link: '/chapters/08-不要复制人类组织病/07-重新设计一种团队' },
+      { text: '底层条件变了，不做公司仿真', link: '/chapters/08-不要复制人类组织病/01-底层条件变了不做公司仿真' },
+      { text: '协调要留，防人补丁要删', link: '/chapters/08-不要复制人类组织病/02-协调要留防人补丁要删' },
+      { text: 'agent 新病要新治', link: '/chapters/08-不要复制人类组织病/03-agent新病要新治' },
+      { text: '事实判断与最终责任', link: '/chapters/08-不要复制人类组织病/04-事实判断与最终责任' },
+      { text: '重新设计一种团队', link: '/chapters/08-不要复制人类组织病/05-重新设计一种团队' },
     ],
   },
 ]
