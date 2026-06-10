@@ -13,9 +13,9 @@ hero:
       link: https://github.com/Onenightcarnival/agent-engineering-philosophy
 features:
   - title: 比模型高一层的抽象
-    details: 第一本书把模型当作概率组件来工程化。这一本把 agent 当作自主角色：有岗位、有技能、有履历、有环境。工程对象从应用变成了 agent 本身。
+    details: 第一本书把模型当作概率组件来工程化。这一本把 agent 当作自主角色：有岗位、有技能、有履历、有环境。工程对象从应用转向 agent 本身。
   - title: 把 agent 当打工人看
-    details: 系统提示词是 JD，skill 是简历与证书，模型分级是学历，长期记忆是履历，持久化沙箱是工作电脑。这套视角会重新排一遍 agent 工程的问题。
+    details: 系统提示词是 JD，skill 是简历与证书，模型分级是学历，长期记忆是履历，持久化沙箱是工作电脑。这套视角会重新整理 agent 工程的问题。
   - title: 二部曲的第二部
     details: 《大模型应用工程哲学》之后的续作。前一本讲怎么和一个不靠谱的函数相处，这一本讲怎么和一个不靠谱的同事相处。两本可以独立阅读。
 ---
@@ -38,6 +38,6 @@ agent 的定义这两年换得很快。最早它接近"会用工具的动物"：
 
 ## 与第一本书的关系
 
-[《大模型应用工程哲学》](https://onenightcarnival.github.io/llm-engineering-philosophy/)从概率性的模型出发。你工程化的是建在模型之上的**应用**。这一本从 agent 这个自主角色出发。你工程化的是 **agent 本身**。这是比模型高一层的抽象，不是同一层的更深一刀。
+[《大模型应用工程哲学》](https://onenightcarnival.github.io/llm-engineering-philosophy/)从概率性的模型出发。工程对象是建在模型之上的**应用**。这一本从 agent 这个自主角色出发。工程对象是 **agent 本身**。这是比模型高一层的抽象，不是同一层的更深一刀。
 
 凡是能在模型层讲清的（不确定性、声明式提示、类型契约），这本书引用前一本，不重讲。
