@@ -6,7 +6,7 @@ title: Chapter 5 · Overview
 
 The role is defined, the degree matches, the skills are in place. One thing is still missing before an agent stops being a one-off conversation and becomes someone who works long-term: continuity.
 
-Continuity has two carriers. One is the work environment — a sandbox with a persistent volume, effectively a work computer that belongs to this agent, where files, dependencies, and half-finished work all stay put. The other is the record — long-term memory, effectively a career record: what it has done, where it has stumbled, whom it has served, all on file. This chapter covers both, and ends by making one thing clear: the career record is not decoration. It changes the agent's judgment.
+Continuity lives in two places. One is the work environment — a sandbox with a persistent volume, effectively a work computer that belongs to this agent, where files, dependencies, and half-finished work all stay put. The other is the record — long-term memory, effectively a career record: what it has done, where it has stumbled, whom it has served, all on file. This chapter covers both, and ends by making one thing clear: the career record is not decoration. It changes the agent's judgment.
 
 With this chapter, the first half of an agent's life as an individual — birth, hiring, onboarding, settling in — is complete.
 
