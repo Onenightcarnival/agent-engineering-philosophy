@@ -14,7 +14,7 @@ This book is about how to think, and only then about how to build.
 
 ## What This Book Does
 
-This book answers one question: when agents move into the core of a software system, what should engineering do.
+This book answers one question: when agents move into the core of a software system, what engineering should do.
 
 It expresses a personal point of view, with explicit preferences, judgments, and taste. The biases and blind spots are laid out in the next article, so you can calibrate.
 
@@ -40,9 +40,9 @@ Chapter 1 establishes the abstraction: what an agent actually is, and why treati
 
 Chapters 2 through 6 walk that abstraction through the agent's individual life: training before birth, the job before the candidate, onboarding training and professional certification, the work computer and the career record, probation, promotion, and retirement.
 
-Chapters 7 and 8 move from the individual to the team and the organization: how a group of agents cooperates, and when a traditional organization becomes an agentic one, what changes and what doesn't.
+Chapters 7 and 8 move from the individual to the team and the organization: how a group of agents cooperates, and what changes — and what doesn't — when a traditional organization becomes an agentic one.
 
-The book opens with a judgment: an agent is an engineering object one level above the model. It closes with a judgment too: in an agentic organization, final responsibility must land on a person or an organization with stakes — something that can bear consequences. An agent cannot be that endpoint.
+The book opens with a judgment: an agent is an engineering object one level above the model. It closes with a judgment too: in an agentic organization, final responsibility must land on a person or an organization with stakes — one that can answer for the consequences. An agent cannot be that endpoint.
 
 ## How to Read It
 

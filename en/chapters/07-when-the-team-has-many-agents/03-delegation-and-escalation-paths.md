@@ -4,9 +4,9 @@ title: Delegation and Escalation Paths
 
 # Delegation and Escalation Paths
 
-Chapter 3 put permission boundaries on a single agent. In a team, the permission question gains a dimension: what each agent may decide on its own, what it must report upward — there has to be an explicit escalation path.
+Chapter 3 put permission boundaries on a single agent. In a team, the permission question gains a dimension: each agent needs an explicit escalation path — what it may decide on its own, and what it must send up.
 
-## Without One, the Team Slides to an Extreme
+## Without One, the Team Goes to Extremes
 
 Take the escalation path away and the team drifts toward one of two extremes.
 

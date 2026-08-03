@@ -16,7 +16,7 @@ Flowcharts change, because businesses change. The customer-support flow, the ris
 
 ## The complexity is narrative, not technical
 
-Those intimidating concepts, taken apart, are ordinary code. Memory is a list. Retrieval is a lookup before the call. The loop is a while. None of it is complex on its own. The weight the word "framework" carries comes mostly from narrative, not from technology. "We built an agent orchestration platform" is a far better story than "we wrapped a few API calls." The narrative talks the complexity up first; then the framework arrives to solve the complexity the narrative invented.
+Take the intimidating concepts apart and you find ordinary code. Memory is a list. Retrieval is a lookup before the call. The loop is a while. None of it is complex on its own. The weight the word "framework" carries comes mostly from narrative, not from technology. "We built an agent orchestration platform" is a far better story than "we wrapped a few API calls." The narrative talks the complexity up first; then the framework arrives to solve the complexity the narrative invented.
 
 Force a framework onto ground where no stable abstraction exists and the outcome is preordained: all it can unify is surface-level boilerplate. That layer bears no weight for the business, yet you must learn its concepts first, submit to its constraints, and when something breaks, debug through it to find the problem. The cost is real. The benefit is narrative.
 
@@ -24,4 +24,4 @@ Force a framework onto ground where no stable abstraction exists and the outcome
 
 A framework is the product of an answer, not the answer itself. A field needs a stable abstraction before a framework has anything to unify; until the abstraction stands, every framework can only circle the surface.
 
-So the first question in agent engineering was never "which framework." It's "what is an agent, exactly?" At the time, that question was wide open. This book starts there.
+So the first question in agent engineering has never been "which framework." It's "what is an agent, exactly?" At the time, that question was wide open. This book starts there.

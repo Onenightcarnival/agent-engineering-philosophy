@@ -8,7 +8,7 @@ When multiple agents work together, the standard framing is multi-agent orchestr
 
 This is flowchart thinking again. What a framework unifies is the flowchart, not the agents; orchestration is the same move replayed at the team level — it draws the call topology, not the team.
 
-## A Wiring Diagram Cannot Draw Role Relationships
+## A Wiring Diagram Cannot Capture Role Relationships
 
 In a real team, what matters is not who calls whom. It is the role relationships: who owns which piece, who delivers to whom, who answers for whose output, and who takes the fall when things go wrong.
 

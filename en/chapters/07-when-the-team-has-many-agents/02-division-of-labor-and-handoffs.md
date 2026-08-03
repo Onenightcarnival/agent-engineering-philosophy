@@ -6,7 +6,7 @@ title: Division of Labor and Handoffs
 
 When multiple agents collaborate, what matters is not running together — it is the handoff. One agent's output becomes another's input, and the quality of the collaboration rests on that handoff point.
 
-When human teams fail, the failure is often not in any one person but between two people — information leaks through the middle, responsibility gets stuck in the seam. Agent teams make the same mistake, and more insidiously, because an agent by default will not push back and ask for clarification (unless you design it to). Hand over something slightly vague and the receiver will not frown and ask questions. It will build on the vague input as given and carry the error all the way downstream.
+When human teams fail, the failure is often not in any one person but between two people — information leaks through the middle, responsibility gets stuck in the seam. Agent teams make the same mistake, and it hides better, because an agent by default will not push back and ask for clarification (unless you design it to). Hand over something slightly vague and the receiver will not frown and ask questions. It will build on the vague input exactly as given and carry the error all the way downstream.
 
 ## Three Things at Every Handoff Point
 

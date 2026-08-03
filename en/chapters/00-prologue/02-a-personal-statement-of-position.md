@@ -10,7 +10,7 @@ Every book like this has biases behind it. The only difference is that some book
 
 This statement is calibration data. If you know the telescope's optical axis is off by a few degrees, the observations are still usable.
 
-One thing touches my own interests, so it comes first: I am building an agent framework. This book's premise is that the agent layer already has an abstraction stable enough to be worth building a framework on — and my framework is a bet on exactly that premise. I have more motive than anyone to make it sound more settled than it is. Wherever this book argues for that premise, apply a discount.
+First, a conflict of interest: I am building an agent framework. This book's premise is that the agent layer already has an abstraction stable enough to be worth building a framework on — and my framework is a bet on exactly that premise. I have more motive than anyone to make it sound more settled than it is. Wherever this book argues for that premise, apply a discount.
 
 ## Three Core Beliefs
 
@@ -42,6 +42,6 @@ Even if the abstraction holds, I may overapply it. For some agent problems the o
 
 This book treats the agent as a person. The metaphor works hard, but every metaphor has a boundary. In places it will distort — an agent is not, in the end, a person. It has no self, and it doesn't truly suffer consequences. Forcing human logic onto it will produce errors. I try to mark the metaphor's boundary in each chapter, but I will certainly miss some.
 
-One premise deserves to be singled out, because the book's entire theory of responsibility rests on it: I assume the agent has no stakes of its own — it cannot truly be harmed, and there is nothing it cares about. That is precisely why final responsibility must land on people or organizations, not on agents. This is not a timeless truth; it is a timestamp. The book is written in a carbon-dominated era, when agents are just beginning to enter human society — an era in which agents have capability but no stakes, and humans absorb all the consequences. If that premise ever collapses — if agents grow stakes of their own — the conclusions about responsibility will have to be rewritten, not patched. That belongs to another era, and it is outside this book's scope.
+One premise deserves to be singled out, because the book's entire theory of responsibility rests on it: I assume the agent has no stakes of its own — it cannot truly be harmed, and there is nothing it cares about. That is precisely why final responsibility must land on people or organizations, not on agents. This is not a timeless truth; it is a timestamp. The book is written in an era still run by carbon-based life, when agents are just beginning to enter human society — an era in which agents have capability but no stakes, and humans absorb all the consequences. If that premise ever collapses — if agents grow stakes of their own — the conclusions about responsibility will have to be rewritten, not patched. That belongs to another era, and it is outside this book's scope.
 
 There is also a class of problems I treat too lightly: the fuzzy zones of collaboration, between agents and between agents and humans, that structure and protocol can't fully absorb. My instinct is to pin down the structure first, which probably makes me underestimate the part that only grows in the doing.
