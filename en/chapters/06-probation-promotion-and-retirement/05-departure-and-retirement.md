@@ -16,7 +16,7 @@ Handoff. The unfinished work in its hands, and the context it alone holds, must 
 
 Archiving. Its artifacts, its career record, its useful work records must be preserved, not evaporate with the instance. These are the organization's assets, not the agent's private property — when it retires, the assets go into the vault, not into the grave.
 
-Permission revocation. The tool access, data read/write, and external authorizations it holds must be reclaimed. This one is the easiest to miss and the most dangerous: a decommissioned agent that still holds permissions is a dangling security hole. Chapter 3 issued permissions as part of the JD; at departure they must be taken back in kind.
+Permission revocation. The tool access, data read/write, and external authorizations it holds must be reclaimed. This one is the easiest to miss and the most dangerous: a decommissioned agent that still holds permissions is a dangling security hole. Chapter 3 issued permissions as part of the JD; departure has to revoke them one for one.
 
 Memory disposition. Its long-term memory has to be dealt with — what merges into organizational assets, what gets destroyed outright, what touches sensitive information and must be purged. Memory is the career record, and a record can contain things that shouldn't be kept and shouldn't be allowed to spread.
 

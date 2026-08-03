@@ -12,7 +12,7 @@ An accounting license, a driver's license, any professional qualification — ch
 
 A certification crosses environments for exactly one reason: it is verifiable.
 
-A driver's license is recognized in any city because there's a standardized examination behind it — no matter who administers the test or where, the results line up. For a skill to earn the rank of certification, it has to meet the same bar: reusable across agents, environments, and roles, with effects that can be checked — not "it seems to work on my setup."
+A driver's license is recognized in any city because there's a standardized examination behind it — no matter who administers the test or where, the results line up. For a skill to qualify as a certification, it has to clear the same bar: reusable across agents, environments, and roles, with results that can be checked — not "it seems to work on my setup."
 
 This puts a hard requirement on skill design: no dependence on any particular agent's hidden context. If a skill only runs because some agent has accumulated a pile of unstated preconditions, and breaks the moment you switch agents, it isn't a certification. It's that agent's personal habit, at best. A certification must carry everything it needs — preconditions, dependencies, usage — all stated explicitly, so anyone can pick it up and follow it.
 

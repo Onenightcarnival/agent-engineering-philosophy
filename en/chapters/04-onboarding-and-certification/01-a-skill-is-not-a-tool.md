@@ -20,6 +20,6 @@ Once this distinction takes hold, you look at agents differently.
 
 An agent may have access to many tools — it can query databases, send email, run scripts. But that's just the toolbox at its elbow. It doesn't tell you what the agent can actually do. What defines its capabilities are the skills it holds: it can reconcile accounts, write weekly reports, review code. Tools are the hands; skills are the craft.
 
-So "adding a capability" to an agent, most of the time, does not mean wiring up another tool. It means distilling a skill — turning "how this class of work gets done" into a nameable, reusable unit. That is when the agent's capability actually grows. That skills can migrate across agents without their effectiveness collapsing was covered in the first book's treatment of portability; within the abstraction of "a person," a skill's place is the craft — the line you can actually write on a resume.
+So "adding a capability" to an agent, most of the time, does not mean wiring up another tool. It means distilling a skill — turning "how this class of work gets done" into a nameable, reusable unit. That is when the agent's capability actually grows. The first book's treatment of portability already made the case that skills migrate across agents without falling apart; within the abstraction of "a person," a skill's place is the craft — the line you can actually write on a resume.
 
-Where does craft come from? Either the company teaches it — onboarding training — or it was earned earlier and travels with you — a professional certification.
+Where does craft come from? Either the company teaches it, which is onboarding training, or it was earned earlier and travels with the worker, which is a professional certification.

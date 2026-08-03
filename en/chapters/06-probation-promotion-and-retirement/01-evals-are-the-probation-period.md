@@ -16,6 +16,6 @@ Getting the second exam right means designing it around the role: test the agent
 
 ## An eval detached from the job cannot measure competence
 
-Which yields a rule: an eval detached from the job can't tell you whether an agent is good. It can only tell you the agent's general tier.
+From this follows a rule: an eval detached from the job can't tell you whether an agent is good. It can only tell you the agent's general tier.
 
 General tier is one input when picking a model, but it is not a verdict on job competence. Treating a high score on a general eval as "this agent can handle my role" is using the pre-probation resume in place of the probation itself. What you need to build is an assessment grown out of the job — one that tests how well this work gets done, not where the candidate ranks on generic problems.

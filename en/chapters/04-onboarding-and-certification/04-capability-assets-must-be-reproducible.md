@@ -26,7 +26,7 @@ test cases: given inputs with expected outputs, so it can be verified
 
 These four things — dependencies, environment, input/output contract, test cases — decide whether a skill can go from "runs on my setup" to "runs somewhere else, and can be verified to still be working."
 
-Why type contracts and portability are the foundation of this kind of reliability is covered in the first book. Applied back to the skill as a unit of capability: write the contract down, declare the dependencies, supply the test cases, and the skill can survive being picked up by another agent — and survive future maintenance.
+For why type contracts and portability are the foundation of this kind of reliability, see the first book. Brought back to the skill as a unit of capability: write the contract down, declare the dependencies, supply the test cases, and the skill can survive being picked up by another agent — and survive future maintenance.
 
 ## An Irreproducible Capability Is a Liability
 
