@@ -22,7 +22,7 @@ What these failures share: the symptom shows up in the agent's behavior, but the
 
 ## Fix the JD First, Then the Model
 
-Which gives an operational ordering: when debugging an agent, fix the JD first, then the model.
+So there's an order of operations: when debugging an agent, fix the JD first, then the model.
 
 When behavior is wrong, go back to the role — are the responsibilities too broad, are the boundaries undrawn, does the usage contradict the definition? Straighten those out and many "the model isn't good enough" problems disappear on their own. Only when the role is genuinely in order and behavior still falls short is it time to suspect the degree and go find a stronger candidate.
 
