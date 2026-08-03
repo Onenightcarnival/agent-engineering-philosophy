@@ -22,7 +22,7 @@ These three are the skeleton of collaboration, not decoration. They also serve t
 
 ## Cut the Organizational Theater
 
-Human organizations carry another class of mechanism, built to cope with human self-interest, face, fear, and appetite for power: guarding against credit-grabbing, blame-shifting, slacking, factionalism, and the boss who doesn't understand but insists on ruling anyway. That premise does not transfer to agents.
+Human organizations carry another class of mechanism, built to cope with human self-interest, face, fear, and appetite for power: guarding against credit-grabbing, blame-shifting, slacking, factionalism, and the boss who fakes understanding and forces the call anyway. That premise does not transfer to agents.
 
 Don't let theater count as performance. Many human performance systems evaluate people under incomplete information: read the reports, judge the attitude, notice who explains well in meetings, reward whoever packages their contribution best. An agent team doesn't need this. Every tool call, intermediate artifact, rework path, and final result can be recorded. The work record is already queryable — don't invent a ritual where the agent narrates its diligence. Performance comes from traces, artifacts, and evals, not from reporting rhetoric. The more complex the system, the more you should read the real work record and the less you should read self-description.
 

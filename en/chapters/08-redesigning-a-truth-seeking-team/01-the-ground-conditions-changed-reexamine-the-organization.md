@@ -44,7 +44,7 @@ A role is an engineering object, not organizational decoration. It needs explici
 
 Many roles were carved out historically not because of task structure but because humans couldn't cope: someone does nothing but summarize because others can't read all the material; someone does nothing but coordinate because information moves slowly; someone does nothing but approve because the organization doesn't trust the front line. Copy those roles to agents as-is and you import the complexity that human limits created.
 
-So every split deserves the same interrogation: does this division come from task structure, or from human bandwidth? Does it protect the independence of fact-finding, or just manufacture a sense of organization? Does it reduce risk, or manufacture a feeling of approval? Is the handoff cost smaller than the gain from splitting? Does it make facts clearer, or responsibility blurrier?
+So every split deserves the same interrogation: does this division come from task structure, or from human bandwidth? Does it protect the independence of fact-finding, or just manufacture a sense of organization? Does it reduce risk, or manufacture the appearance of sign-off? Is the handoff cost smaller than the gain from splitting? Does it make facts clearer, or responsibility blurrier?
 
 Delete the fake roles; keep the real boundaries. Real boundaries usually appear in three places: where the task structure differs, where the risk level differs, and where a judgment of fact needs independence.
 

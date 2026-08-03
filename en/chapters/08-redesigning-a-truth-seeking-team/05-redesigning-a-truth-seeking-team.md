@@ -46,12 +46,12 @@ The three kinds of team look different on the surface. The underlying problem is
 
 ## Hold Three Lines
 
-Truth over flattery. Agents are good at making words flow and conclusions comfortable. Team design must reward facts, not pleasant sounds.
+Truth over flattery. Agents are good at making words flow and conclusions comfortable. Team design must reward facts, not what's easy on the ear.
 
 Accountability over deflection. Work can be split; responsibility cannot be split out of existence. A multi-agent system must have a final point of accountability, and a person or organization that finally bears the consequences.
 
-Restraint over excess. Can automate does not mean should automate. Can parallelize does not mean should parallelize without limit. Can make agents generate more does not mean more is better.
+Restraint over excess. Being able to automate doesn't mean you should. Being able to parallelize doesn't mean parallelizing without limit. Being able to make agents generate more doesn't mean more is better.
 
 Multi-agent engineering cannot simulate a company, and it cannot just shard tasks across more models. The new team must serve truth-seeking: keep the structures collaboration needs, delete the organizational theater, then add the error defenses agents themselves require. And at the end, there must still be a party that can bear the consequences.
 
-Software systems now contain autonomous roles that can take a job, collaborate, and leave a track record. The engineering object has changed. What you design now includes call flows — and a kind of role that works, and the structure of responsibility once those roles form a team.
+Software systems now contain autonomous roles that can take a job, collaborate, and leave a track record. The engineering object has changed. What you design now includes call flows, but also a kind of role that works — and the structure of responsibility once those roles form a team.

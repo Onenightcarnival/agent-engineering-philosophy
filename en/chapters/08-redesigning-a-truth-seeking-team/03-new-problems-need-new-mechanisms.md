@@ -56,4 +56,4 @@ Handling the new problems takes more than reminders. It takes hard constraints: 
 
 Several of these share names with old mechanisms from human organizations — independent review, dedicated error-hunting, audit trails. Same name, different construction. In a human organization, review defends judgment against interest and power. In an agent team, review isolates contexts and breaks the chain of same-source error.
 
-Countering the user's hallucination likewise rests on structure, not on people reminding themselves to be objective. In a hybrid system, humans own the final consequences — but that does not entitle them to overwrite the facts. Responsibility is no substitute for truth.
+Countering the user's hallucination likewise rests on structure, not on people reminding themselves to be objective. In a hybrid system, humans own the final consequences — but that does not entitle them to overwrite the facts. Responsibility is no substitute for the facts.

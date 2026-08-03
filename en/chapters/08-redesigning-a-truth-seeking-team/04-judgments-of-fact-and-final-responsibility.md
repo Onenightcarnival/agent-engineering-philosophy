@@ -34,7 +34,7 @@ The final point of accountability may say: "At this level of risk, I do not auth
 
 The "no" here is not a rejection of the facts — it's a rejection of a particular action proceeding under those facts. The trolley is already out of control, the tests have already failed, the customer has already misunderstood, the data is already contaminated. No responsible party can erase these facts by declaration. What they can veto are the actions that convert risk into real consequences: release, commitment, payment, deletion, continued automatic execution.
 
-This is the human's place in a hybrid system. Bearing the consequences does not make a person the natural superior of the facts. Humans keep the release power over final actions — emergency stop, rollback, publish, commit, pay, delete. Local facts belong to whoever stands closest to the evidence.
+This is the human's place in a hybrid system. Bearing the consequences does not put a person above the judgment of the facts. Humans keep the release power over final actions — emergency stop, rollback, publish, commit, pay, delete. Local facts belong to whoever stands closest to the evidence.
 
 ## Work Can Be Split; Time and Responsibility Cannot
 
@@ -60,7 +60,7 @@ The other half is correction: locate the failure point, revoke which permission,
 
 In agent systems, part of responsibility shifts from punishing someone to finding where the system failed and fixing it.
 
-The final point of accountability changes too. It need not be a punishable person, but it must be findable, stoppable, rewritable, and rollbackable.
+The final point of accountability changes too. It need not be a punishable person, but it must be something you can find, stop, rewrite, and roll back.
 
 One line must not slacken: the final point of accountability must sit outside the optimization loop it governs. A system that sets its own goals, judges for itself whether the goals are still reachable, and decides for itself when to stop has dismantled the external check. It will find reasons for itself — "the goal is still within reach." The one thing you can trust least is its self-assessed stopping condition. The seat that holds the goals and the kill switch can be another agent, but never the one being optimized.
 
