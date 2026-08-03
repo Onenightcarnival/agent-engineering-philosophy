@@ -1,8 +1,8 @@
 # Agent 工程哲学
 
-> 《大模型应用工程哲学》的续作——二部曲的第二部。
+> [English](README.en.md) | 简体中文
 >
-> English edition: [read online](https://onenightcarnival.github.io/agent-engineering-philosophy/en/) · [source](en/)
+> 《大模型应用工程哲学》的续作——二部曲的第二部。
 
 第一本书从模型出发：模型是一个会出错的概率组件，工程要处理的是建在它之上的应用。这本书换了一个出发点：agent 这个自主角色——有岗位、有技能、有履历、有自己的工作环境。工程对象从"用模型搭应用"，转向"设计 agent 本身"。这是比模型高一层的抽象，不是同一层的更深一刀。
 
