@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/07-当团队里有很多agent/05-多agent写作不是并行生成
 title: Multi-Agent Writing Is Not Parallel Generation
 ---
 

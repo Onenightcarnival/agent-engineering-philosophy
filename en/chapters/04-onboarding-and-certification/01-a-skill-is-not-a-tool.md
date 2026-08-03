@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/04-上岗培训与职业证书/01-skill不是工具
 title: A Skill Is Not a Tool
 ---
 

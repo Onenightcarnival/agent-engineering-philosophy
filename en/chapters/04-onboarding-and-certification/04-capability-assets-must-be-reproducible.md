@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/04-上岗培训与职业证书/04-能力资产要可复现
 title: Capability Assets Must Be Reproducible
 ---
 

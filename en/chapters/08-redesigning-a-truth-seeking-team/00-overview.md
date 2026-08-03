@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/08-重新设计一种求真的团队/00-概述
 title: Chapter 8 · Overview
 ---
 

@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/01-寻找一个稳定的抽象/03-skill让整张图归位
 title: Skills Snap the Picture into Place
 ---
 

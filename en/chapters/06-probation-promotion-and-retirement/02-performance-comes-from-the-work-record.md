@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/06-试用期晋升与退休/02-绩效来自工作记录
 title: Performance Comes from the Work Record
 ---
 

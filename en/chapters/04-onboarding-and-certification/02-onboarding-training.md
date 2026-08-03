@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/04-上岗培训与职业证书/02-上岗培训
 title: Role-Specific Skills Are Onboarding Training
 ---
 

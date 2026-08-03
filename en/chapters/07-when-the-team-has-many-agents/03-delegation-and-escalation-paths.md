@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/07-当团队里有很多agent/03-授权与升级路径
 title: Delegation and Escalation Paths
 ---
 

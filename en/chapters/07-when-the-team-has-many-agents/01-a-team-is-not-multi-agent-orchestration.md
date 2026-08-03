@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/07-当团队里有很多agent/01-团队不是多agent编排
 title: A Team Is Not Multi-Agent Orchestration
 ---
 

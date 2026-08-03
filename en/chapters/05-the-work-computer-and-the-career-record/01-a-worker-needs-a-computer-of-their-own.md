@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/05-工作电脑与职业履历/01-打工人需要一台自己的电脑
 title: A Worker Needs a Computer of Their Own
 ---
 

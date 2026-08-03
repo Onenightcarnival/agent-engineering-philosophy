@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/00-序章/00-概述
 title: Prologue · Overview
 ---
 

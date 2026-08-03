@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/06-试用期晋升与退休/00-概述
 title: Chapter 6 · Overview
 ---
 

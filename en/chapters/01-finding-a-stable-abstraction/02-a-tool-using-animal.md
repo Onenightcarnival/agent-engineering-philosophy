@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/01-寻找一个稳定的抽象/02-会用工具的动物
 title: A Tool-Using Animal
 ---
 

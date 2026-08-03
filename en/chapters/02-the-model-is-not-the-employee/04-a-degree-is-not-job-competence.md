@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/02-模型不是员工/04-学历不是岗位胜任
 title: A Degree Is Not Job Competence
 ---
 

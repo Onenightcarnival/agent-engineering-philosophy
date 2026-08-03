@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/02-模型不是员工/00-概述
 title: Chapter 2 · Overview
 ---
 

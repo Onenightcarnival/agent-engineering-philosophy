@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/04-上岗培训与职业证书/03-职业证书
 title: Transferable Skills Are Professional Certifications
 ---
 

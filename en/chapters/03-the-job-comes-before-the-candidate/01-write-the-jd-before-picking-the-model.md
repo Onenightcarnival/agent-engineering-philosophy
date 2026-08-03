@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/03-岗位先于候选人/01-先写JD再选模型
 title: Write the JD Before Picking the Model
 ---
 

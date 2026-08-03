@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/08-重新设计一种求真的团队/03-agent的新问题要靠新机制处理
 title: New Problems Need New Mechanisms
 ---
 

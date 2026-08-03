@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/01-寻找一个稳定的抽象/01-没有稳定的抽象框架都是假的
 title: Without a Stable Abstraction, Every Framework Is Fake
 ---
 

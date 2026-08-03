@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/08-重新设计一种求真的团队/04-事实判断与最终责任
 title: Judgments of Fact and Final Responsibility
 ---
 

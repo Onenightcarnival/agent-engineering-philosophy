@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/08-重新设计一种求真的团队/02-协调要留表演要删
 title: Keep the Coordination, Cut the Theater
 ---
 

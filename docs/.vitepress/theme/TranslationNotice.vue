@@ -1,16 +1,16 @@
 <script setup>
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
-const { lang } = useData()
+const { lang, frontmatter } = useData()
 </script>
 
 <template>
-  <div v-if="lang === 'en'" class="translation-notice">
+  <div v-if="lang.startsWith('en') && frontmatter.originalLink" class="translation-notice">
     <p>
       This is a community translation of the original Chinese text.
       The translation may contain inaccuracies.
       When in doubt, please refer to the
-      <a :href="$frontmatter.originalLink || '/'" target="_blank">original Chinese version</a>.
+      <a :href="withBase(frontmatter.originalLink)">original Chinese version</a>.
     </p>
   </div>
 </template>

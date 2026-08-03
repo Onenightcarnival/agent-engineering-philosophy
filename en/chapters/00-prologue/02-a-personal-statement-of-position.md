@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/00-序章/02-个人立场声明
 title: A Personal Statement of Position
 ---
 

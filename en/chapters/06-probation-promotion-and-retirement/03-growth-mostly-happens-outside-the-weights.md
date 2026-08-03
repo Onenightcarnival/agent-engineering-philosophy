@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/06-试用期晋升与退休/03-成长大多不在权重里
 title: Growth Mostly Happens Outside the Weights
 ---
 

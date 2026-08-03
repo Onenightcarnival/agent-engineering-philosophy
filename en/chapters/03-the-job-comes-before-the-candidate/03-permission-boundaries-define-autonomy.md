@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/03-岗位先于候选人/03-权限边界决定自主性
 title: Permission Boundaries Define Autonomy
 ---
 

@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/08-重新设计一种求真的团队/05-重新设计一种求真的团队
 title: Redesigning a Truth-Seeking Team
 ---
 

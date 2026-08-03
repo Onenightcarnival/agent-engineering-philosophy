@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/02-模型不是员工/02-预训练是通识教育
 title: Pretraining Is General Education
 ---
 

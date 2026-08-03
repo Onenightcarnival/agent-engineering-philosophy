@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/02-模型不是员工/03-后训练是职业教育
 title: Post-training Is Vocational Education
 ---
 

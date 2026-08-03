@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/02-模型不是员工/01-出生以前
 title: Before the Agent Is Born
 ---
 

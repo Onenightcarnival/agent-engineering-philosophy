@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/03-岗位先于候选人/02-系统提示词不是咒语
 title: The System Prompt Is Not an Incantation
 ---
 

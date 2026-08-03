@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/06-试用期晋升与退休/05-离职与退休
 title: Departure and Retirement
 ---
 

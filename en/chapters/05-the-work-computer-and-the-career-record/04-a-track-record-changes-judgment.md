@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/05-工作电脑与职业履历/04-履历改变判断
 title: A Track Record Changes Judgment
 ---
 

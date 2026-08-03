@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/07-当团队里有很多agent/02-分工与交接
 title: Division of Labor and Handoffs
 ---
 

@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/08-重新设计一种求真的团队/01-底层条件变了组织要重审
 title: The Ground Conditions Changed — Reexamine the Organization
 ---
 

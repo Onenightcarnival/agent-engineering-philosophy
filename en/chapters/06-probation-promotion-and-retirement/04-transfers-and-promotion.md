@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/06-试用期晋升与退休/04-转岗与晋升
 title: Transfers and Promotion
 ---
 

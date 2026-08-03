@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/07-当团队里有很多agent/04-上下文隔离与共享
 title: Context Isolation and Sharing
 ---
 

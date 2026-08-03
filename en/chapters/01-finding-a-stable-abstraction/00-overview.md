@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/01-寻找一个稳定的抽象/00-概述
 title: Chapter 1 · Overview
 ---
 

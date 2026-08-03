@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/05-工作电脑与职业履历/02-环境稳定工作才连续
 title: A Stable Environment Makes Work Continuous
 ---
 

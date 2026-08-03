@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/00-序章/01-不是又一本agent框架指南
 title: Not Another Agent Framework Guide
 ---
 

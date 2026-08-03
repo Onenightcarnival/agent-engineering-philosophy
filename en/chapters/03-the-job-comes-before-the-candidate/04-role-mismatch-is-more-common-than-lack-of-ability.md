@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/03-岗位先于候选人/04-岗位错配比能力不足更常见
 title: Role Mismatch Is More Common Than Lack of Ability
 ---
 

@@ -1,4 +1,5 @@
 ---
+originalLink: /chapters/05-工作电脑与职业履历/03-记忆不是聊天记录
 title: Memory Is Not Chat History
 ---
 
