@@ -378,8 +378,3 @@ html {
   line-height: 1.8 !important;
   color: var(--vp-c-text-2) !important;
 }
-
-/* ===== Hide default VitePress language switcher ===== */
-.VPFlyout:has([aria-label="Change language"]) {
-  display: none !important;
-}
